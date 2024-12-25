@@ -10,30 +10,30 @@
 </template>
 
 <script setup lang="ts">
-import ProjectCard from "./Atoms/ProjectCard.vue"
+import ProjectCard from "./ProjectCard.vue"
 const projects = [
   {
     title: "Vue-Commerce",
     description: "A modern e-commerce solution built with Vue and Javascript",
-    image: "https://images.unsplash.com/photo-1661956602116-aa6865609028?auto=format&fit=crop&q=80&w=800",
+    image: "src/assets/ecommerce.png",
     tech: ["Vue", "JavaScript", "Tailwind", "PrimeVue", "Pinia"]
   },
   {
     title: "SpodCast",
     description: "Podcast platform integrated with Spotify API ",
-    image: "/src/assets/Spodcast.png",
+    image: "src/assets/Spodcast.png",
     tech: ["Vue", "Javascript", "Api Integration(SpotifyAPI)", "Axios", "Tailwind", "Vuex", "Vuetify"]
   },
   {
     title: "My portfolio",
     description: "Modern, Minimal, and styled Portfolio, as you can see now ^^ ",
-    image: "/src/assets/Portfolio.png",
+    image: "src/assets/portfolio.png",
     tech: ["Vue", "Javascript", "Tailwind", "PrimeVue"]
   },
   {
     title: "Zoux",
     description: "A ful-native project to recap of HTML, CSS, JS ",
-    image: "/src/assets/Zoux.png",
+    image: "src/assets/Zoux.png",
     tech: ["HTML", "CSS", "Javascript",]
   }
 

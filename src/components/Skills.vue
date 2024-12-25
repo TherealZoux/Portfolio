@@ -10,7 +10,7 @@
 </template>
 
 <script setup lang="ts">
-import SkillsCard from "./Atoms/SkillsCard.vue"
+import SkillsCard from "./SkillsCard.vue"
 
 import { Layout, Code2, Database } from 'lucide-vue-next';
 
