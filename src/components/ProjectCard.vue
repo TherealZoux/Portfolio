@@ -1,6 +1,6 @@
 <template>
   <div class="group box relative overflow-hidden rounded-xl shadow-lg hover:shadow-xl transition-shadow">
-    <img :src="props.project.image" :alt="props.project.title" class="w-full h-64 object-cover" />
+    <img :src="props.src" :alt="props.project.title" class="w-full h-64 object-cover" />
     <div
       class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent p-6 flex flex-col justify-end transform translate-y-4 group-hover:translate-y-0 transition-transform">
       <h3 class="text-xl font-bold text-white mb-2">{{ props.project.title }}</h3>
@@ -21,7 +21,8 @@
 import { ExternalLink } from 'lucide-vue-next';
 
 const props = defineProps({
-  project: { type: Object }
+  project: { type: Object },
+  src: { type: String }
 });
 </script>
 

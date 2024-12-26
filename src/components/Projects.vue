@@ -3,7 +3,7 @@
     <div class="container mx-auto px-6">
       <h2 class=" main-title text-3xl font-bold mb-12">Featured Projects</h2>
       <div class="grid md:grid-cols-2 gap-8">
-        <ProjectCard v-for="(project, index) in projects" :project="project" :key="index" />
+        <ProjectCard v-for="(project, index) in projects" :project="project" :src="project.image" :key="index" />
       </div>
     </div>
   </section>
