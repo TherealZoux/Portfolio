@@ -10,30 +10,35 @@
 </template>
 
 <script setup lang="ts">
+import ecommerceImage from "/src/assets/ecommerce.png"
+import spodCastImage from "/src/assets/Spodcast.png"
+import portfolioImage from "/src/assets/portfolio.png"
+import zouxImage from "/src/assets/Zoux.png"
+
 import ProjectCard from "./ProjectCard.vue"
 const projects = [
   {
     title: "Vue-Commerce",
     description: "A modern e-commerce solution built with Vue and Javascript",
-    image: "src/assets/ecommerce.png",
+    image: ecommerceImage,
     tech: ["Vue", "JavaScript", "Tailwind", "PrimeVue", "Pinia"]
   },
   {
     title: "SpodCast",
     description: "Podcast platform integrated with Spotify API ",
-    image: "src/assets/Spodcast.png",
+    image: spodCastImage,
     tech: ["Vue", "Javascript", "Api Integration(SpotifyAPI)", "Axios", "Tailwind", "Vuex", "Vuetify"]
   },
   {
     title: "My portfolio",
     description: "Modern, Minimal, and styled Portfolio, as you can see now ^^ ",
-    image: "src/assets/portfolio.png",
+    image: portfolioImage,
     tech: ["Vue", "Javascript", "Tailwind", "PrimeVue"]
   },
   {
     title: "Zoux",
     description: "A ful-native project to recap of HTML, CSS, JS ",
-    image: "src/assets/Zoux.png",
+    image: zouxImage,
     tech: ["HTML", "CSS", "Javascript",]
   }
 
