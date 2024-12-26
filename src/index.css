@@ -2,11 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("./assets/ecommerce.png");
+@import url("./assets/Spodcast.png");
+@import url("./assets/portfolio.png");
+@import url("./assets/Zoux.png");
+
 @layer base {
   html {
     scroll-behavior: smooth;
   }
-  
+
   body {
     @apply antialiased;
   }
@@ -16,11 +21,11 @@
   .container {
     @apply max-w-7xl mx-auto;
   }
-  
+
   .animate-blob {
     animation: blob 7s infinite;
   }
-  
+
   .animation-delay-2000 {
     animation-delay: 2s;
   }
@@ -30,12 +35,15 @@
   0% {
     transform: translate(0px, 0px) scale(1);
   }
+
   33% {
     transform: translate(30px, -50px) scale(1.1);
   }
+
   66% {
     transform: translate(-20px, 20px) scale(0.9);
   }
+
   100% {
     transform: translate(0px, 0px) scale(1);
   }
